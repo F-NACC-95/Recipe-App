@@ -5,10 +5,10 @@ import App from '../App';
 import RecipePage from './RecipePage';
 
 const Router = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} component={App} exact />
-            <Route path={process.env.PUBLIC_URL + '/recipe/:id'} component={RecipePage} />
+            <Route path={'/'} component={App} exact />
+            <Route path={'/recipe/:id'} component={RecipePage} />
         </Switch>
     </BrowserRouter>
 )
