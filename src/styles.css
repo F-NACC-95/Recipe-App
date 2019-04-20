@@ -40,6 +40,19 @@ ul {
     border-bottom: 3px solid #4487bf;
 }
 
+.form__button {
+    font-size: 1rem; 
+    margin-left: 1rem;
+    padding: 0.5rem;
+    width: 150px;
+    background-color: rgb(32, 102, 160);
+    color: white;
+  }
+  
+  .form__button:hover {
+    background-color: rgb(101, 173, 231);
+  }
+
 /* RecipeList.js */
 
 .recipe__list__div {
