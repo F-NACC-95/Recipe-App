@@ -120,7 +120,7 @@ ul {
 /* RecipePage.js */
 
 .recipe__page__div {
-    width: 70%;
+    width: 100vw;
     height: 100vh;
     margin: auto;
     text-align: center;
@@ -141,7 +141,6 @@ ul {
     font-size: 12px;
 }
 
-
 .recipe__page__source__url a {
     text-decoration: none;
 }
@@ -150,23 +149,16 @@ ul {
     object-fit: cover;
     margin-top: 2rem;
     margin: auto;
-    padding: 3rem;
-    border-radius: 2rem;
-    width: 50vw;
-}
-
-.recipe__page__image__url:hover {
-    background: #aacedd;
 }
 
 .recipe__page__image__url img {
-    border-radius: 2rem;
-    width: 40vw;
-    height: 500px;
+    width: 50vw;
+    height: 40vh;
     object-fit: cover;
 }
 
 .recipe__page__rank {
+    padding-top: 2rem;
     font-size: 1em;
 }
 
