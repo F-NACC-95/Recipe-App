@@ -22,7 +22,6 @@ class RecipePage extends Component {
                 <div className="recipe__page__title">{this.state.currentRecipe.title}</div>
                 <div className="recipe__page__publisher">Published by {this.state.currentRecipe.publisher}</div>
                 <div className="recipe__page__image__url"><img src={this.state.currentRecipe.image_url} alt={this.state.currentRecipe.title} /></div>
-                <div className="recipe__page__rank">Recipe Rank: {this.state.currentRecipe.social_rank}</div>
                 <div className="recipe__page__source__url"><a href={this.state.currentRecipe.source_url} >Click here to learn more about this recipe</a></div>
             </div>
         );  
