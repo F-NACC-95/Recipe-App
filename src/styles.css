@@ -53,6 +53,10 @@ ul {
     background-color: rgb(101, 173, 231);
   }
 
+  .form input {
+      padding: 0.5rem;
+  }
+
 /* RecipeList.js */
 
 .recipe__list__div {
@@ -155,8 +159,9 @@ ul {
 
 .recipe__page__image__url img {
     width: 500px;
-    height: 500px;
+    height: 450px;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .recipe__page__source__url {
