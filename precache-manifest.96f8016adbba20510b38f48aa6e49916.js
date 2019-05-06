@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/recipe-app/static/js/runtime~main.03934cd0.js"
   },
   {
-    "revision": "ddc17d7d986daba25a3b",
+    "revision": "949075766bdcdece422e",
     "url": "/recipe-app/static/js/main.e6ca718f.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/recipe-app/static/js/2.4108bdad.chunk.js"
   },
   {
-    "revision": "ddc17d7d986daba25a3b",
-    "url": "/recipe-app/static/css/main.7ab1cc99.chunk.css"
+    "revision": "949075766bdcdece422e",
+    "url": "/recipe-app/static/css/main.a7ac3242.chunk.css"
   },
   {
-    "revision": "6599fefdc5c26287008d0f169e4644dd",
+    "revision": "7c4038a9b6dcd4116f1dd549efccf2fa",
     "url": "/recipe-app/index.html"
   }
 ];
