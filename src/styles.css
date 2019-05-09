@@ -158,10 +158,11 @@ ul {
 }
 
 .recipe__page__image__url img {
-    width: 500px;
+    width: 450px;
     height: 450px;
     object-fit: cover;
     border-radius: 15px;
+    border-top: 3px solid rgb(104, 167, 219);
 }
 
 .recipe__page__source__url {
@@ -223,8 +224,8 @@ ul {
 
     /* RecipePage.js */
     .recipe__page__image__url img {
-        width: 95%;
-        height: 40vh;
+        width: 70%;
+        height: 300px;
     }
 }
 
